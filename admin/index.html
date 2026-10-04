@@ -1,0 +1,188 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Manage Academy</title><link rel="stylesheet" href="../shared/styles.css"></head><body><div class="layout"><aside class="sidebar"></aside><main class="main"><div class="eyebrow">Plug & Play</div><h1>Manage Academy</h1><p class="lead">Add source material without rewriting the application.</p><div id="drop" class="drop"><h2>Drag a book here</h2><p>EPUB · PDF · HTML/XHTML · DOCX · TXT</p><input id="file" type="file" accept=".epub,.pdf,.html,.htm,.xhtml,.docx,.txt"></div><div id="result"></div><div class="grid">
+<article class="card">
+<h3>Books</h3>
+<p>View and manage the canonical books installed in the Academy.</p>
+<a class="button" href="books.html">Manage Books</a>
+</article>
+
+<article class="card">
+<h3>Question Sheets</h3>
+<p>Add and manage question sheets for each Academy program.</p>
+<a class="button" href="questions.html">Manage Question Sheets</a>
+</article>
+
+<article class="card">
+<h3>Study Guides & Academy Questions</h3>
+<p>Add study guides and individual administrator-created questions.</p>
+<a class="button" href="study-guides.html">Manage Study Guides</a>
+</article>
+
+<article class="card">
+<h3>References</h3>
+<p>Manage optional scholar and course resources.</p>
+<a class="button" href="references.html">Manage References</a>
+</article>
+</div>
+
+<section class="card" style="margin-top:24px">
+  <div class="eyebrow">Portable Package</div>
+  <h2>Portable Academy Content</h2>
+  <p>
+    Carry administrator-added study guides, Academy questions,
+    references, and imported question sheets with this Academy folder.
+  </p>
+  <p>
+    <button class="button" id="savePortableContent" type="button">
+      Save Academy Content to Portable Package
+    </button>
+    <button class="button secondary" id="loadPortableContent" type="button">
+      Load Academy Content from Portable Package
+    </button>
+  </p>
+  <p id="portableContentStatus" class="small"></p>
+</section>
+
+</main></div><script src="../shared/portable-academy-content.js"></script><script src="../shared/app.js"></script><script>sidebar('manage');let d=drop,f=file,o=result;function inspect(x){let e=(x.name.split('.').pop()||'').toLowerCase(),ok=['epub','pdf','html','htm','xhtml','docx','txt'].includes(e);o.innerHTML=`<div class="card" style="margin-top:18px"><div class="eyebrow">Import preview</div><h3>${x.name}</h3><p><b>Detected:</b> ${e.toUpperCase()}</p><p><b>Supported:</b> ${ok?'Yes':'Needs adapter'}</p><p><b>Preferred:</b> EPUB ${e==='epub'?'✓':'— this format can still be used'}</p><p class="small">Before registration, confirm title, edition, translator/commentator, source and canonical book ID.</p></div>`}f.onchange=()=>f.files[0]&&inspect(f.files[0]);d.ondragover=e=>e.preventDefault();d.ondrop=e=>{e.preventDefault();e.dataTransfer.files[0]&&inspect(e.dataTransfer.files[0])}
+
+const PORTABLE_PROGRAMS=[
+  'bhakti-sastri',
+  'bhakti-vaibhava',
+  'bhakti-vedanta',
+  'bhakti-sarvabhauma',
+  'sat-sandarbhas'
+];
+
+const PORTABLE_GUIDES_KEY='bhakti_academy_guides_v1';
+const PORTABLE_REFERENCES_KEY='bhakti_academy_references_v1';
+const PORTABLE_QUESTIONS_PREFIX='bhakti-study.imported-questions.';
+
+function portableArray(key){
+  try{
+    const value=JSON.parse(localStorage.getItem(key)||'[]');
+    return Array.isArray(value)?value:[];
+  }catch{
+    return [];
+  }
+}
+
+function collectPortableContent(){
+  const imported={};
+
+  PORTABLE_PROGRAMS.forEach(program=>{
+    imported[program]=portableArray(PORTABLE_QUESTIONS_PREFIX+program);
+  });
+
+  return {
+    format:'bhakti-study-academy-content',
+    version:1,
+    guides:portableArray(PORTABLE_GUIDES_KEY),
+    references:portableArray(PORTABLE_REFERENCES_KEY),
+    imported_questions:imported
+  };
+}
+
+async function savePortableContent(){
+  const status=document.getElementById('portableContentStatus');
+  status.textContent='Saving Academy content…';
+
+  try{
+    const response=await fetch('../__academy/portable-content',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify(collectPortableContent())
+    });
+
+    const result=await response.json();
+
+    if(!response.ok||!result.ok){
+      throw new Error(result.error||'Save failed.');
+    }
+
+    const content=collectPortableContent();
+    const questionCount=Object.values(content.imported_questions)
+      .reduce((n,items)=>n+items.length,0);
+
+    status.textContent=
+      `Saved to portable package: ${content.guides.length} guide/Academy question record(s), `+
+      `${content.references.length} reference(s), `+
+      `${questionCount} imported question(s).`;
+  }catch(error){
+    status.textContent='Portable save failed: '+error.message;
+  }
+}
+
+async function loadPortableContent(){
+  const status=document.getElementById('portableContentStatus');
+
+  if(!confirm(
+    'Load Academy content from this portable package? '+
+    'This replaces the browser copies of administrator-added guides, references, '+
+    'and imported question sheets. Student work and canonical books are not changed.'
+  ))return;
+
+  status.textContent='Loading Academy content…';
+
+  try{
+    const response=await fetch('../__academy/portable-content',{
+      cache:'no-store'
+    });
+
+    const result=await response.json();
+
+    if(!response.ok||!result.ok){
+      throw new Error(result.error||'Load failed.');
+    }
+
+    const content=result.content;
+
+    if(
+      !content||
+      content.format!=='bhakti-study-academy-content'||
+      content.version!==1||
+      !Array.isArray(content.guides)||
+      !Array.isArray(content.references)||
+      typeof content.imported_questions!=='object'||
+      content.imported_questions===null||
+      Array.isArray(content.imported_questions)
+    ){
+      throw new Error('Portable Academy content is invalid.');
+    }
+
+    localStorage.setItem(
+      PORTABLE_GUIDES_KEY,
+      JSON.stringify(content.guides)
+    );
+
+    localStorage.setItem(
+      PORTABLE_REFERENCES_KEY,
+      JSON.stringify(content.references)
+    );
+
+    PORTABLE_PROGRAMS.forEach(program=>{
+      const items=content.imported_questions[program];
+      localStorage.setItem(
+        PORTABLE_QUESTIONS_PREFIX+program,
+        JSON.stringify(Array.isArray(items)?items:[])
+      );
+    });
+
+    const questionCount=PORTABLE_PROGRAMS.reduce(
+      (n,program)=>n+
+        (Array.isArray(content.imported_questions[program])
+          ?content.imported_questions[program].length
+          :0),
+      0
+    );
+
+    status.textContent=
+      `Loaded from portable package: ${content.guides.length} guide/Academy question record(s), `+
+      `${content.references.length} reference(s), `+
+      `${questionCount} imported question(s).`;
+  }catch(error){
+    status.textContent='Portable load failed: '+error.message;
+  }
+}
+
+document.getElementById('savePortableContent').onclick=savePortableContent;
+document.getElementById('loadPortableContent').onclick=loadPortableContent;
+</script></body></html>

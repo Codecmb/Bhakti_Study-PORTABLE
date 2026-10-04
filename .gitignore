@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+*~
+*.tmp
+
+__pycache__/
+*.pyc
+
+# Local Folio/VedaBase source exports
+tools/folio-import/*.rtf
+
+# Folio importer working files
+tools/folio-import/generated/
+tools/folio-import/backups/
+
+# Local pre-change safety backups
+*.before-*

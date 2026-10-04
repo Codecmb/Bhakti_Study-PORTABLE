@@ -1,0 +1,3289 @@
+{
+  "schema": "bhakti-study.study-course.v2",
+  "courseId": "sat-sandarbhas-paramatma",
+  "title": "Paramātma Sandarbha — Estudio avanzado",
+  "displayTitle": "Paramātma Sandarbha",
+  "primaryWork": "paramatma",
+  "canonicalPrefix": "PAS",
+  "language": "es",
+  "authorityPolicy": {
+    "primaryTextIsAuthority": true,
+    "aiRequired": false,
+    "generatedAnswerKeys": false,
+    "studentReflectionStoredSeparately": true,
+    "instruction": "Las herramientas de estudio remiten al estudiante a la fuente primaria; no sustituyen el texto ni presentan respuestas generadas como siddhānta."
+  },
+  "unitCount": 109,
+  "units": [
+    {
+      "id": "PAS.1",
+      "number": 1,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.1, formula qué debe establecer Jīva Gosvāmī acerca de conocimiento, Paramātmā, jīva.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.1 siguiendo cómo Jīva Gosvāmī relaciona conocimiento, Paramātmā, jīva.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 5.11.12, 2.6.42, 6.4.24, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de conocimiento, Paramātmā, jīva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.1 sobre conocimiento, Paramātmā, jīva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.2",
+      "number": 2,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.2, formula qué debe establecer Jīva Gosvāmī acerca de puruṣa, Viṣṇu, Brahmā.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.2 siguiendo cómo Jīva Gosvāmī relaciona puruṣa, Viṣṇu, Brahmā.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 5.17, 5.8, 1.9.52, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de puruṣa, Viṣṇu, Brahmā."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.2 sobre puruṣa, Viṣṇu, Brahmā.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.3",
+      "number": 3,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.3, formula qué debe establecer Jīva Gosvāmī acerca de puruṣa, pradhāna, Brahmā.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.3 siguiendo cómo Jīva Gosvāmī relaciona puruṣa, pradhāna, Brahmā.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 3.8.22, 3.8.29, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de puruṣa, pradhāna, Brahmā."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.3 sobre puruṣa, pradhāna, Brahmā.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.4",
+      "number": 4,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.4, formula qué debe establecer Jīva Gosvāmī acerca de puruṣa, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.4 siguiendo cómo Jīva Gosvāmī relaciona puruṣa, Bhagavān.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de puruṣa, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.4 sobre puruṣa, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.5",
+      "number": 5,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.5, formula qué debe establecer Jīva Gosvāmī acerca de puruṣa, Brahman, Paramātmā.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.5 siguiendo cómo Jīva Gosvāmī relaciona puruṣa, Brahman, Paramātmā.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 5.11.14, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de puruṣa, Brahman, Paramātmā."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.5 sobre puruṣa, Brahman, Paramātmā.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.6",
+      "number": 6,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.6, formula qué debe establecer Jīva Gosvāmī acerca de Paramātmā, jīva.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.6 siguiendo cómo Jīva Gosvāmī relaciona Paramātmā, jīva.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 10.54.44, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Paramātmā, jīva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.6 sobre Paramātmā, jīva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.7",
+      "number": 7,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.7, formula qué debe establecer Jīva Gosvāmī acerca de jīva, Paramātmā, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.7 siguiendo cómo Jīva Gosvāmī relaciona jīva, Paramātmā, Bhagavān.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.18.32, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de jīva, Paramātmā, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.7 sobre jīva, Paramātmā, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.8",
+      "number": 8,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.8, formula qué debe establecer Jīva Gosvāmī acerca de Viṣṇu, Brahmā, guṇas.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.8 siguiendo cómo Jīva Gosvāmī relaciona Viṣṇu, Brahmā, guṇas.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.4.5, 3.8.15, 1.2.23, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Viṣṇu, Brahmā, guṇas."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.8 sobre Viṣṇu, Brahmā, guṇas.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.9",
+      "number": 9,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.9, formula qué debe establecer Jīva Gosvāmī acerca de Brahmā, Viṣṇu, Śiva.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.9 siguiendo cómo Jīva Gosvāmī relaciona Brahmā, Viṣṇu, Śiva.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 3.9.16, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Brahmā, Viṣṇu, Śiva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.9 sobre Brahmā, Viṣṇu, Śiva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.10",
+      "number": 10,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.10, formula qué debe establecer Jīva Gosvāmī acerca de guṇas, Viṣṇu, Brahmā.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.10 siguiendo cómo Jīva Gosvāmī relaciona guṇas, Viṣṇu, Brahmā.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 4.1.21, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de guṇas, Viṣṇu, Brahmā."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.10 sobre guṇas, Viṣṇu, Brahmā.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.11",
+      "number": 11,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.11, formula qué debe establecer Jīva Gosvāmī acerca de Viṣṇu, Brahmā, Śiva.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.11 siguiendo cómo Jīva Gosvāmī relaciona Viṣṇu, Brahmā, Śiva.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 10.89.1, 1.2.23, 14.17, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Viṣṇu, Brahmā, Śiva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.11 sobre Viṣṇu, Brahmā, Śiva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.12",
+      "number": 12,
+      "sourceHeadingVerified": false,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer el segmento compartido, formula qué debe establecer Jīva Gosvāmī acerca de Viṣṇu, Brahmā, Śiva en relación con PAS.12.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Estudia el segmento fuente compartido que cubre PAS.12 sin atribuirle un límite independiente que esta edición no muestra.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 10.89.1, 1.2.23, 14.17, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Viṣṇu, Brahmā, Śiva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.12 sobre Viṣṇu, Brahmā, Śiva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.13",
+      "number": 13,
+      "sourceHeadingVerified": false,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer el segmento compartido, formula qué debe establecer Jīva Gosvāmī acerca de Viṣṇu, Brahmā, Śiva en relación con PAS.13.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Estudia el segmento fuente compartido que cubre PAS.13 sin atribuirle un límite independiente que esta edición no muestra.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 10.89.1, 1.2.23, 14.17, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Viṣṇu, Brahmā, Śiva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.13 sobre Viṣṇu, Brahmā, Śiva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.14",
+      "number": 14,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.14, formula qué debe establecer Jīva Gosvāmī acerca de guṇas, Śiva, testigo.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.14 siguiendo cómo Jīva Gosvāmī relaciona guṇas, Śiva, testigo.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 10.88.3, 11.11.3, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de guṇas, Śiva, testigo."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.14 sobre guṇas, Śiva, testigo.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.15",
+      "number": 15,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.15, formula qué debe establecer Jīva Gosvāmī acerca de Brahmā, Bhagavān, Śiva.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.15 siguiendo cómo Jīva Gosvāmī relaciona Brahmā, Bhagavān, Śiva.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 2.6.32, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Brahmā, Bhagavān, Śiva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.15 sobre Brahmā, Bhagavān, Śiva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.16",
+      "number": 16,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.16, formula qué debe establecer Jīva Gosvāmī acerca de Brahmā, Viṣṇu, Śiva.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.16 siguiendo cómo Jīva Gosvāmī relaciona Brahmā, Viṣṇu, Śiva.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.5.1, 3.8.15, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Brahmā, Viṣṇu, Śiva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.16 sobre Brahmā, Viṣṇu, Śiva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.17",
+      "number": 17,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.17, formula qué debe establecer Jīva Gosvāmī acerca de Śiva, Brahmā, Viṣṇu.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.17 siguiendo cómo Jīva Gosvāmī relaciona Śiva, Brahmā, Viṣṇu.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 4.7.54, 12.10.22, 14.17, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Śiva, Brahmā, Viṣṇu."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.17 sobre Śiva, Brahmā, Viṣṇu.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.18",
+      "number": 18,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.18, formula qué debe establecer Jīva Gosvāmī acerca de Śiva, Brahmā, potencias.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.18 siguiendo cómo Jīva Gosvāmī relaciona Śiva, Brahmā, potencias.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 10.68.37, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Śiva, Brahmā, potencias."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.18 sobre Śiva, Brahmā, potencias.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.19",
+      "number": 19,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.19, formula qué debe establecer Jīva Gosvāmī acerca de jīva, conocimiento, Paramātmā.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.19 siguiendo cómo Jīva Gosvāmī relaciona jīva, conocimiento, Paramātmā.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 5.11.12, 11.3.39, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de jīva, conocimiento, Paramātmā."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.19 sobre jīva, conocimiento, Paramātmā.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.20",
+      "number": 20,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.20, formula qué debe establecer Jīva Gosvāmī acerca de Viṣṇu, testigo, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.20 siguiendo cómo Jīva Gosvāmī relaciona Viṣṇu, testigo, Bhagavān.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.13.27, 11.13.28, 11.15.16, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Viṣṇu, testigo, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.20 sobre Viṣṇu, testigo, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.21",
+      "number": 21,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.21, formula qué debe establecer Jīva Gosvāmī acerca de cuerpo material, creación cósmica.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.21 siguiendo cómo Jīva Gosvāmī relaciona cuerpo material, creación cósmica.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de cuerpo material, creación cósmica."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.21 sobre cuerpo material, creación cósmica.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.22",
+      "number": 22,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.22, formula qué debe establecer Jīva Gosvāmī acerca de conocimiento, potencias, prakṛti.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.22 siguiendo cómo Jīva Gosvāmī relaciona conocimiento, potencias, prakṛti.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.3.38, 5.11.12, 5.15, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de conocimiento, potencias, prakṛti."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.22 sobre conocimiento, potencias, prakṛti.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.23",
+      "number": 23,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.23, formula qué debe establecer Jīva Gosvāmī acerca de māyā, guṇas, conocimiento.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.23 siguiendo cómo Jīva Gosvāmī relaciona māyā, guṇas, conocimiento.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 6.5.15, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de māyā, guṇas, conocimiento."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.23 sobre māyā, guṇas, conocimiento.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.24",
+      "number": 24,
+      "sourceHeadingVerified": false,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer el segmento compartido, formula qué debe establecer Jīva Gosvāmī acerca de māyā, guṇas, conocimiento en relación con PAS.24.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Estudia el segmento fuente compartido que cubre PAS.24 sin atribuirle un límite independiente que esta edición no muestra.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 6.5.15, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de māyā, guṇas, conocimiento."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.24 sobre māyā, guṇas, conocimiento.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.25",
+      "number": 25,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.25, formula qué debe establecer Jīva Gosvāmī acerca de potencias, conocimiento, māyā.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.25 siguiendo cómo Jīva Gosvāmī relaciona potencias, conocimiento, māyā.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 3.7.9, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, conocimiento, māyā."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.25 sobre potencias, conocimiento, māyā.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.26",
+      "number": 26,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.26, formula qué debe establecer Jīva Gosvāmī acerca de potencias, conocimiento, jīva.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.26 siguiendo cómo Jīva Gosvāmī relaciona potencias, conocimiento, jīva.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 4.25.62, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, conocimiento, jīva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.26 sobre potencias, conocimiento, jīva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.27",
+      "number": 27,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.27, formula qué debe establecer Jīva Gosvāmī acerca de Paramātmā, guṇas, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.27 siguiendo cómo Jīva Gosvāmī relaciona Paramātmā, guṇas, Bhagavān.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.10.8, 11.22.30, 11.22.31, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Paramātmā, guṇas, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.27 sobre Paramātmā, guṇas, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.28",
+      "number": 28,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.28, formula qué debe establecer Jīva Gosvāmī acerca de conocimiento, Paramātmā, potencias.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.28 siguiendo cómo Jīva Gosvāmī relaciona conocimiento, Paramātmā, potencias.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.3.38, 7.6.19, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de conocimiento, Paramātmā, potencias."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.28 sobre conocimiento, Paramātmā, potencias.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.29",
+      "number": 29,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.29, formula qué debe establecer Jīva Gosvāmī acerca de conocimiento, karma, guṇas.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.29 siguiendo cómo Jīva Gosvāmī relaciona conocimiento, karma, guṇas.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 3.26.6, 11.3.39, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de conocimiento, karma, guṇas."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.29 sobre conocimiento, karma, guṇas.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.30",
+      "number": 30,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.30, formula qué debe establecer Jīva Gosvāmī acerca de Bhagavān, guṇas, jīva.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.30 siguiendo cómo Jīva Gosvāmī relaciona Bhagavān, guṇas, jīva.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Bhagavān, guṇas, jīva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.30 sobre Bhagavān, guṇas, jīva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.31",
+      "number": 31,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.31, formula qué debe establecer Jīva Gosvāmī acerca de testigo, jīva.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.31 siguiendo cómo Jīva Gosvāmī relaciona testigo, jīva.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 3.7.10, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de testigo, jīva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.31 sobre testigo, jīva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.32",
+      "number": 32,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.32, formula qué debe establecer Jīva Gosvāmī acerca de jīva, Brahman, Paramātmā.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.32 siguiendo cómo Jīva Gosvāmī relaciona jīva, Brahman, Paramātmā.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.13.22, 11.13.23, 5.19, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de jīva, Brahman, Paramātmā."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.32 sobre jīva, Brahman, Paramātmā.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.33",
+      "number": 33,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.33, formula qué debe establecer Jīva Gosvāmī acerca de jīva, Bhagavān, guṇas.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.33 siguiendo cómo Jīva Gosvāmī relaciona jīva, Bhagavān, guṇas.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.16.11, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de jīva, Bhagavān, guṇas."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.33 sobre jīva, Bhagavān, guṇas.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.34",
+      "number": 34,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.34, formula qué debe establecer Jīva Gosvāmī acerca de jīva, Paramātmā, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.34 siguiendo cómo Jīva Gosvāmī relaciona jīva, Paramātmā, Bhagavān.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 15.7, 1.12.57, 2.24, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de jīva, Paramātmā, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.34 sobre jīva, Paramātmā, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.35",
+      "number": 35,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.35, formula qué debe establecer Jīva Gosvāmī acerca de Paramātmā, Bhagavān, prakṛti.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.35 siguiendo cómo Jīva Gosvāmī relaciona Paramātmā, Bhagavān, prakṛti.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 5.11.12, 6.16.24, 3.26.8, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Paramātmā, Bhagavān, prakṛti."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.35 sobre Paramātmā, Bhagavān, prakṛti.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.36",
+      "number": 36,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.36, formula qué debe establecer Jīva Gosvāmī acerca de puruṣa, jīva.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.36 siguiendo cómo Jīva Gosvāmī relaciona puruṣa, jīva.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 3.26.8, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de puruṣa, jīva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.36 sobre puruṣa, jīva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.37",
+      "number": 37,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.37, formula qué debe establecer Jīva Gosvāmī acerca de potencias, jīva, Paramātmā.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.37 siguiendo cómo Jīva Gosvāmī relaciona potencias, jīva, Paramātmā.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 12.7.18, 6.7.61, 7.4, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, jīva, Paramātmā."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.37 sobre potencias, jīva, Paramātmā.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.38",
+      "number": 38,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.38, formula qué debe establecer Jīva Gosvāmī acerca de jīva, Bhagavān, liberación.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.38 siguiendo cómo Jīva Gosvāmī relaciona jīva, Bhagavān, liberación.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.11.4, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de jīva, Bhagavān, liberación."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.38 sobre jīva, Bhagavān, liberación.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.39",
+      "number": 39,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.39, formula qué debe establecer Jīva Gosvāmī acerca de potencias, jīva, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.39 siguiendo cómo Jīva Gosvāmī relaciona potencias, jīva, Bhagavān.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 10.87.20, 10.87.38, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, jīva, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.39 sobre potencias, jīva, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.40",
+      "number": 40,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.40, formula qué debe establecer Jīva Gosvāmī acerca de Paramātmā, conocimiento, jīva.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.40 siguiendo cómo Jīva Gosvāmī relaciona Paramātmā, conocimiento, jīva.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Paramātmā, conocimiento, jīva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.40 sobre Paramātmā, conocimiento, jīva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.41",
+      "number": 41,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.41, formula qué debe establecer Jīva Gosvāmī acerca de potencias, Bhagavān, Paramātmā.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.41 siguiendo cómo Jīva Gosvāmī relaciona potencias, Bhagavān, Paramātmā.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, Bhagavān, Paramātmā."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.41 sobre potencias, Bhagavān, Paramātmā.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.42",
+      "number": 42,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.42, formula qué debe establecer Jīva Gosvāmī acerca de potencias, Bhagavān, conocimiento.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.42 siguiendo cómo Jīva Gosvāmī relaciona potencias, Bhagavān, conocimiento.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.22.11, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, Bhagavān, conocimiento."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.42 sobre potencias, Bhagavān, conocimiento.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.43",
+      "number": 43,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.43, formula qué debe establecer Jīva Gosvāmī acerca de jīva, potencias, bhakti.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.43 siguiendo cómo Jīva Gosvāmī relaciona jīva, potencias, bhakti.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 3.9.33, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de jīva, potencias, bhakti."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.43 sobre jīva, potencias, bhakti.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.44",
+      "number": 44,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.44, formula qué debe establecer Jīva Gosvāmī acerca de conocimiento, jīva, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.44 siguiendo cómo Jīva Gosvāmī relaciona conocimiento, jīva, Bhagavān.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.22.10, 11.22.28, 11.22.9, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de conocimiento, jīva, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.44 sobre conocimiento, jīva, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.45",
+      "number": 45,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.45, formula qué debe establecer Jīva Gosvāmī acerca de conocimiento, bhakti, Paramātmā.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.45 siguiendo cómo Jīva Gosvāmī relaciona conocimiento, bhakti, Paramātmā.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de conocimiento, bhakti, Paramātmā."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.45 sobre conocimiento, bhakti, Paramātmā.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.46",
+      "number": 46,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.46, formula qué debe establecer Jīva Gosvāmī acerca de jīva, cuerpo material, conocimiento.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.46 siguiendo cómo Jīva Gosvāmī relaciona jīva, cuerpo material, conocimiento.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 7.7.19, 12.7.18, 11.7.18, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de jīva, cuerpo material, conocimiento."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.46 sobre jīva, cuerpo material, conocimiento.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.47",
+      "number": 47,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.47, formula qué debe establecer Jīva Gosvāmī acerca de jīva, potencias, prakṛti.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.47 siguiendo cómo Jīva Gosvāmī relaciona jīva, potencias, prakṛti.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 6.4.25, 11.2.37, 3.7.37, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de jīva, potencias, prakṛti."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.47 sobre jīva, potencias, prakṛti.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.48",
+      "number": 48,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.48, formula qué debe establecer Jīva Gosvāmī acerca de māyā, potencias, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.48 siguiendo cómo Jīva Gosvāmī relaciona māyā, potencias, Bhagavān.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 7.14, 11.24.1, 11.24.2, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de māyā, potencias, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.48 sobre māyā, potencias, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.49",
+      "number": 49,
+      "sourceHeadingVerified": false,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer el segmento compartido, formula qué debe establecer Jīva Gosvāmī acerca de māyā, potencias, Bhagavān en relación con PAS.49.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Estudia el segmento fuente compartido que cubre PAS.49 sin atribuirle un límite independiente que esta edición no muestra.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 7.14, 11.24.1, 11.24.2, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de māyā, potencias, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.49 sobre māyā, potencias, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.50",
+      "number": 50,
+      "sourceHeadingVerified": false,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer el segmento compartido, formula qué debe establecer Jīva Gosvāmī acerca de māyā, potencias, Bhagavān en relación con PAS.50.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Estudia el segmento fuente compartido que cubre PAS.50 sin atribuirle un límite independiente que esta edición no muestra.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 7.14, 11.24.1, 11.24.2, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de māyā, potencias, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.50 sobre māyā, potencias, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.51",
+      "number": 51,
+      "sourceHeadingVerified": false,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer el segmento compartido, formula qué debe establecer Jīva Gosvāmī acerca de māyā, potencias, Bhagavān en relación con PAS.51.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Estudia el segmento fuente compartido que cubre PAS.51 sin atribuirle un límite independiente que esta edición no muestra.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 7.14, 11.24.1, 11.24.2, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de māyā, potencias, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.51 sobre māyā, potencias, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.52",
+      "number": 52,
+      "sourceHeadingVerified": false,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer el segmento compartido, formula qué debe establecer Jīva Gosvāmī acerca de māyā, potencias, Bhagavān en relación con PAS.52.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Estudia el segmento fuente compartido que cubre PAS.52 sin atribuirle un límite independiente que esta edición no muestra.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 7.14, 11.24.1, 11.24.2, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de māyā, potencias, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.52 sobre māyā, potencias, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.53",
+      "number": 53,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.53, formula qué debe establecer Jīva Gosvāmī acerca de karma, māyā, jīva.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.53 siguiendo cómo Jīva Gosvāmī relaciona karma, māyā, jīva.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 10.63.26, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de karma, māyā, jīva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.53 sobre karma, māyā, jīva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.54",
+      "number": 54,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.54, formula qué debe establecer Jīva Gosvāmī acerca de māyā, liberación, conocimiento.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.54 siguiendo cómo Jīva Gosvāmī relaciona māyā, liberación, conocimiento.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.3.16, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de māyā, liberación, conocimiento."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.54 sobre māyā, liberación, conocimiento.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.55",
+      "number": 55,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.55, formula qué debe establecer Jīva Gosvāmī acerca de pradhāna, conocimiento, prakṛti.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.55 siguiendo cómo Jīva Gosvāmī relaciona pradhāna, conocimiento, prakṛti.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 3.5.25, 3.5.23, 11.3.16, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de pradhāna, conocimiento, prakṛti."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.55 sobre pradhāna, conocimiento, prakṛti.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.56",
+      "number": 56,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.56, formula qué debe establecer Jīva Gosvāmī acerca de potencias, māyā, pradhāna.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.56 siguiendo cómo Jīva Gosvāmī relaciona potencias, māyā, pradhāna.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 3.26.61, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, māyā, pradhāna."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.56 sobre potencias, māyā, pradhāna.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.57",
+      "number": 57,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.57, formula qué debe establecer Jīva Gosvāmī acerca de māyā, Viṣṇu, potencias.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.57 siguiendo cómo Jīva Gosvāmī relaciona māyā, Viṣṇu, potencias.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 2.10.35, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de māyā, Viṣṇu, potencias."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.57 sobre māyā, Viṣṇu, potencias.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.58",
+      "number": 58,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.58, formula qué debe establecer Jīva Gosvāmī acerca de potencias, conocimiento, māyā.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.58 siguiendo cómo Jīva Gosvāmī relaciona potencias, conocimiento, māyā.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 3.33.3, 11.24.19, 13.15, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, conocimiento, māyā."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.58 sobre potencias, conocimiento, māyā.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.59",
+      "number": 59,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.59, formula qué debe establecer Jīva Gosvāmī acerca de potencias, māyā, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.59 siguiendo cómo Jīva Gosvāmī relaciona potencias, māyā, Bhagavān.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, māyā, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.59 sobre potencias, māyā, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.60",
+      "number": 60,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.60, formula qué debe establecer Jīva Gosvāmī acerca de potencias, Bhagavān, jīva.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.60 siguiendo cómo Jīva Gosvāmī relaciona potencias, Bhagavān, jīva.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, Bhagavān, jīva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.60 sobre potencias, Bhagavān, jīva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.61",
+      "number": 61,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.61, formula qué debe establecer Jīva Gosvāmī acerca de jīva, potencias, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.61 siguiendo cómo Jīva Gosvāmī relaciona jīva, potencias, Bhagavān.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.13.24, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de jīva, potencias, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.61 sobre jīva, potencias, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.62",
+      "number": 62,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.62, formula qué debe establecer Jīva Gosvāmī acerca de conocimiento, Paramātmā, creación cósmica.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.62 siguiendo cómo Jīva Gosvāmī relaciona conocimiento, Paramātmā, creación cósmica.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 7.15.57, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de conocimiento, Paramātmā, creación cósmica."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.62 sobre conocimiento, Paramātmā, creación cósmica.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.63",
+      "number": 63,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.63, formula qué debe establecer Jīva Gosvāmī acerca de conocimiento, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.63 siguiendo cómo Jīva Gosvāmī relaciona conocimiento, Bhagavān.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de conocimiento, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.63 sobre conocimiento, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.64",
+      "number": 64,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.64, formula qué debe establecer Jīva Gosvāmī acerca de la tesis principal, el pramāṇa, la conclusión.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.64 siguiendo cómo Jīva Gosvāmī relaciona la tesis principal, el pramāṇa, la conclusión.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 7.15.59, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de la tesis principal, el pramāṇa, la conclusión."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.64 sobre la tesis principal, el pramāṇa, la conclusión.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.65",
+      "number": 65,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.65, formula qué debe establecer Jīva Gosvāmī acerca de Paramātmā, creación cósmica, potencias.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.65 siguiendo cómo Jīva Gosvāmī relaciona Paramātmā, creación cósmica, potencias.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 5.12.9, 7.15.57, 3.6.1, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Paramātmā, creación cósmica, potencias."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.65 sobre Paramātmā, creación cósmica, potencias.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.66",
+      "number": 66,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.66, formula qué debe establecer Jīva Gosvāmī acerca de Brahman, Paramātmā, cuerpo material.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.66 siguiendo cómo Jīva Gosvāmī relaciona Brahman, Paramātmā, cuerpo material.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 7.15.61, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Brahman, Paramātmā, cuerpo material."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.66 sobre Brahman, Paramātmā, cuerpo material.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.67",
+      "number": 67,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.67, formula qué debe establecer Jīva Gosvāmī acerca de guṇas, potencias, māyā.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.67 siguiendo cómo Jīva Gosvāmī relaciona guṇas, potencias, māyā.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de guṇas, potencias, māyā."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.67 sobre guṇas, potencias, māyā.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.68",
+      "number": 68,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.68, formula qué debe establecer Jīva Gosvāmī acerca de potencias, jīva, pradhāna.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.68 siguiendo cómo Jīva Gosvāmī relaciona potencias, jīva, pradhāna.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 3.28.40, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, jīva, pradhāna."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.68 sobre potencias, jīva, pradhāna.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.69",
+      "number": 69,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.69, formula qué debe establecer Jīva Gosvāmī acerca de Paramātmā, māyā, creación cósmica.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.69 siguiendo cómo Jīva Gosvāmī relaciona Paramātmā, māyā, creación cósmica.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Paramātmā, māyā, creación cósmica."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.69 sobre Paramātmā, māyā, creación cósmica.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.70",
+      "number": 70,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.70, formula qué debe establecer Jīva Gosvāmī acerca de creación cósmica, potencias, karma.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.70 siguiendo cómo Jīva Gosvāmī relaciona creación cósmica, potencias, karma.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 1.22.53, 10.2.26, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de creación cósmica, potencias, karma."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.70 sobre creación cósmica, potencias, karma.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.71",
+      "number": 71,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.71, formula qué debe establecer Jīva Gosvāmī acerca de creación cósmica, māyā, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.71 siguiendo cómo Jīva Gosvāmī relaciona creación cósmica, māyā, Bhagavān.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 10.87.37, 10.87.35, 16.7, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de creación cósmica, māyā, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.71 sobre creación cósmica, māyā, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.72",
+      "number": 72,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.72, formula qué debe establecer Jīva Gosvāmī acerca de potencias, conocimiento, Paramātmā.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.72 siguiendo cómo Jīva Gosvāmī relaciona potencias, conocimiento, Paramātmā.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 10.87.27, 12.4.23, 1.22.55, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, conocimiento, Paramātmā."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.72 sobre potencias, conocimiento, Paramātmā.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.73",
+      "number": 73,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.73, formula qué debe establecer Jīva Gosvāmī acerca de Paramātmā, Bhagavān, creación cósmica.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.73 siguiendo cómo Jīva Gosvāmī relaciona Paramātmā, Bhagavān, creación cósmica.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 12.4.24, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Paramātmā, Bhagavān, creación cósmica."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.73 sobre Paramātmā, Bhagavān, creación cósmica.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.74",
+      "number": 74,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.74, formula qué debe establecer Jīva Gosvāmī acerca de potencias, māyā, Paramātmā.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.74 siguiendo cómo Jīva Gosvāmī relaciona potencias, māyā, Paramātmā.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 12.4.25, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, māyā, Paramātmā."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.74 sobre potencias, māyā, Paramātmā.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.75",
+      "number": 75,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.75, formula qué debe establecer Jīva Gosvāmī acerca de creación cósmica, Brahman, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.75 siguiendo cómo Jīva Gosvāmī relaciona creación cósmica, Brahman, Bhagavān.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 12.4.26, 11.24.19, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de creación cósmica, Brahman, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.75 sobre creación cósmica, Brahman, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.76",
+      "number": 76,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.76, formula qué debe establecer Jīva Gosvāmī acerca de creación cósmica, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.76 siguiendo cómo Jīva Gosvāmī relaciona creación cósmica, Bhagavān.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de creación cósmica, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.76 sobre creación cósmica, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.77",
+      "number": 77,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.77, formula qué debe establecer Jīva Gosvāmī acerca de Brahmā, potencias, creación cósmica.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.77 siguiendo cómo Jīva Gosvāmī relaciona Brahmā, potencias, creación cósmica.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 12.4.28, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Brahmā, potencias, creación cósmica."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.77 sobre Brahmā, potencias, creación cósmica.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.78",
+      "number": 78,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.78, formula qué debe establecer Jīva Gosvāmī acerca de potencias, creación cósmica.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.78 siguiendo cómo Jīva Gosvāmī relaciona potencias, creación cósmica.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, creación cósmica."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.78 sobre potencias, creación cósmica.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.79",
+      "number": 79,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.79, formula qué debe establecer Jīva Gosvāmī acerca de Paramātmā, Bhagavān, potencias.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.79 siguiendo cómo Jīva Gosvāmī relaciona Paramātmā, Bhagavān, potencias.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Paramātmā, Bhagavān, potencias."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.79 sobre Paramātmā, Bhagavān, potencias.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.80",
+      "number": 80,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.80, formula qué debe establecer Jīva Gosvāmī acerca de Paramātmā, Bhagavān, creación cósmica.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.80 siguiendo cómo Jīva Gosvāmī relaciona Paramātmā, Bhagavān, creación cósmica.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Paramātmā, Bhagavān, creación cósmica."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.80 sobre Paramātmā, Bhagavān, creación cósmica.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.81",
+      "number": 81,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.81, formula qué debe establecer Jīva Gosvāmī acerca de Bhagavān, creación cósmica.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.81 siguiendo cómo Jīva Gosvāmī relaciona Bhagavān, creación cósmica.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 12.4.29, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Bhagavān, creación cósmica."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.81 sobre Bhagavān, creación cósmica.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.82",
+      "number": 82,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.82, formula qué debe establecer Jīva Gosvāmī acerca de potencias, jīva, Paramātmā.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.82 siguiendo cómo Jīva Gosvāmī relaciona potencias, jīva, Paramātmā.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, jīva, Paramātmā."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.82 sobre potencias, jīva, Paramātmā.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.83",
+      "number": 83,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.83, formula qué debe establecer Jīva Gosvāmī acerca de Paramātmā, potencias, conocimiento.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.83 siguiendo cómo Jīva Gosvāmī relaciona Paramātmā, potencias, conocimiento.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Paramātmā, potencias, conocimiento."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.83 sobre Paramātmā, potencias, conocimiento.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.84",
+      "number": 84,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.84, formula qué debe establecer Jīva Gosvāmī acerca de māyā, Paramātmā, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.84 siguiendo cómo Jīva Gosvāmī relaciona māyā, Paramātmā, Bhagavān.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.4.34, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de māyā, Paramātmā, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.84 sobre māyā, Paramātmā, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.85",
+      "number": 85,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.85, formula qué debe establecer Jīva Gosvāmī acerca de potencias, guṇas, creación cósmica.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.85 siguiendo cómo Jīva Gosvāmī relaciona potencias, guṇas, creación cósmica.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 10.87.36, 3.7.2, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, guṇas, creación cósmica."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.85 sobre potencias, guṇas, creación cósmica.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.86",
+      "number": 86,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.86, formula qué debe establecer Jīva Gosvāmī acerca de jīva, guṇas, potencias.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.86 siguiendo cómo Jīva Gosvāmī relaciona jīva, guṇas, potencias.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 3.7.3, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de jīva, guṇas, potencias."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.86 sobre jīva, guṇas, potencias.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.87",
+      "number": 87,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.87, formula qué debe establecer Jīva Gosvāmī acerca de guṇas, māyā, potencias.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.87 siguiendo cómo Jīva Gosvāmī relaciona guṇas, māyā, potencias.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 3.7.4, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de guṇas, māyā, potencias."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.87 sobre guṇas, māyā, potencias.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.88",
+      "number": 88,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.88, formula qué debe establecer Jīva Gosvāmī acerca de jīva, māyā, potencias.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.88 siguiendo cómo Jīva Gosvāmī relaciona jīva, māyā, potencias.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de jīva, māyā, potencias."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.88 sobre jīva, māyā, potencias.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.89",
+      "number": 89,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.89, formula qué debe establecer Jīva Gosvāmī acerca de Bhagavān, karma, jīva.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.89 siguiendo cómo Jīva Gosvāmī relaciona Bhagavān, karma, jīva.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Bhagavān, karma, jīva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.89 sobre Bhagavān, karma, jīva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.90",
+      "number": 90,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.90, formula qué debe establecer Jīva Gosvāmī acerca de māyā, potencias, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.90 siguiendo cómo Jīva Gosvāmī relaciona māyā, potencias, Bhagavān.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 3.7.9, 2.9.34, 1.7.10, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de māyā, potencias, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.90 sobre māyā, potencias, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.91",
+      "number": 91,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.91, formula qué debe establecer Jīva Gosvāmī acerca de māyā, jīva, potencias.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.91 siguiendo cómo Jīva Gosvāmī relaciona māyā, jīva, potencias.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de māyā, jīva, potencias."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.91 sobre māyā, jīva, potencias.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.92",
+      "number": 92,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.92, formula qué debe establecer Jīva Gosvāmī acerca de jīva, guṇas, potencias.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.92 siguiendo cómo Jīva Gosvāmī relaciona jīva, guṇas, potencias.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.12.53, 5.11.12, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de jīva, guṇas, potencias."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.92 sobre jīva, guṇas, potencias.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.93",
+      "number": 93,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.93, formula qué debe establecer Jīva Gosvāmī acerca de Bhagavān, bhakti, potencias.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.93 siguiendo cómo Jīva Gosvāmī relaciona Bhagavān, bhakti, potencias.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 1.8.20, 10.14.37, 3.9.23, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Bhagavān, bhakti, potencias."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.93 sobre Bhagavān, bhakti, potencias.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.94",
+      "number": 94,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.94, formula qué debe establecer Jīva Gosvāmī acerca de guṇas, Viṣṇu, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.94 siguiendo cómo Jīva Gosvāmī relaciona guṇas, Viṣṇu, Bhagavān.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de guṇas, Viṣṇu, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.94 sobre guṇas, Viṣṇu, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.95",
+      "number": 95,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.95, formula qué debe establecer Jīva Gosvāmī acerca de guṇas, Brahman.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.95 siguiendo cómo Jīva Gosvāmī relaciona guṇas, Brahman.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 7.1.3, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de guṇas, Brahman."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.95 sobre guṇas, Brahman.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.96",
+      "number": 96,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.96, formula qué debe establecer Jīva Gosvāmī acerca de bhakti, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.96 siguiendo cómo Jīva Gosvāmī relaciona bhakti, Bhagavān.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 1.7.4, 7.1.1, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de bhakti, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.96 sobre bhakti, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.97",
+      "number": 97,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.97, formula qué debe establecer Jīva Gosvāmī acerca de la tesis principal, el pramāṇa, la conclusión.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.97 siguiendo cómo Jīva Gosvāmī relaciona la tesis principal, el pramāṇa, la conclusión.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 7.1.5, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de la tesis principal, el pramāṇa, la conclusión."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.97 sobre la tesis principal, el pramāṇa, la conclusión.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.98",
+      "number": 98,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.98, formula qué debe establecer Jīva Gosvāmī acerca de māyā, guṇas, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.98 siguiendo cómo Jīva Gosvāmī relaciona māyā, guṇas, Bhagavān.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de māyā, guṇas, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.98 sobre māyā, guṇas, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.99",
+      "number": 99,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.99, formula qué debe establecer Jīva Gosvāmī acerca de potencias, māyā, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.99 siguiendo cómo Jīva Gosvāmī relaciona potencias, māyā, Bhagavān.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 1.7.7, 1.12.69, 12.4.29, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, māyā, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.99 sobre potencias, māyā, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.100",
+      "number": 100,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.100, formula qué debe establecer Jīva Gosvāmī acerca de guṇas, māyā, potencias.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.100 siguiendo cómo Jīva Gosvāmī relaciona guṇas, māyā, potencias.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 8.7.11, 10.63.26, 10.3.26, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de guṇas, māyā, potencias."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.100 sobre guṇas, māyā, potencias.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.101",
+      "number": 101,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.101, formula qué debe establecer Jīva Gosvāmī acerca de potencias, Bhagavān, guṇas.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.101 siguiendo cómo Jīva Gosvāmī relaciona potencias, Bhagavān, guṇas.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 7.1.9, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de potencias, Bhagavān, guṇas."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.101 sobre potencias, Bhagavān, guṇas.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.102",
+      "number": 102,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.102, formula qué debe establecer Jīva Gosvāmī acerca de māyā, creación cósmica, guṇas.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.102 siguiendo cómo Jīva Gosvāmī relaciona māyā, creación cósmica, guṇas.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 9.4, 9.29, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de māyā, creación cósmica, guṇas."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.102 sobre māyā, creación cósmica, guṇas.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.103",
+      "number": 103,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.103, formula qué debe establecer Jīva Gosvāmī acerca de pradhāna, guṇas, creación cósmica.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.103 siguiendo cómo Jīva Gosvāmī relaciona pradhāna, guṇas, creación cósmica.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 11.5.48, 3.2.23, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de pradhāna, guṇas, creación cósmica."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.103 sobre pradhāna, guṇas, creación cósmica.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.104",
+      "number": 104,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.104, formula qué debe establecer Jīva Gosvāmī acerca de Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.104 siguiendo cómo Jīva Gosvāmī relaciona Bhagavān.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.104 sobre Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.105",
+      "number": 105,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.105, formula qué debe establecer Jīva Gosvāmī acerca de Brahmā, conocimiento, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.105 siguiendo cómo Jīva Gosvāmī relaciona Brahmā, conocimiento, Bhagavān.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 1.3.40, 12.13.19, 1.1.1, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Brahmā, conocimiento, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.105 sobre Brahmā, conocimiento, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.106",
+      "number": 106,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.106, formula qué debe establecer Jīva Gosvāmī acerca de Bhagavān, karma, Viṣṇu.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.106 siguiendo cómo Jīva Gosvāmī relaciona Bhagavān, karma, Viṣṇu.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Bhagavān, karma, Viṣṇu."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.106 sobre Bhagavān, karma, Viṣṇu.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.107",
+      "number": 107,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.107, formula qué debe establecer Jīva Gosvāmī acerca de Bhagavān, bhakti.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.107 siguiendo cómo Jīva Gosvāmī relaciona Bhagavān, bhakti.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 2.2.37, 1.7.7, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Bhagavān, bhakti."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.107 sobre Bhagavān, bhakti.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.108",
+      "number": 108,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.108, formula qué debe establecer Jīva Gosvāmī acerca de Brahmā, Śiva, Bhagavān.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.108 siguiendo cómo Jīva Gosvāmī relaciona Brahmā, Śiva, Bhagavān.",
+          "Localiza el pramāṇa citado y explica qué función cumple en el argumento, sin confundir la cita con la conclusión de Jīva Gosvāmī.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Brahmā, Śiva, Bhagavān."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.108 sobre Brahmā, Śiva, Bhagavān.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.109",
+      "number": 109,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "Antes de leer PAS.109, formula qué debe establecer Jīva Gosvāmī acerca de Bhagavān, Paramātmā, jīva.",
+          "Anota tu comprensión inicial en una o dos proposiciones que luego puedas revisar frente a la fuente."
+        ],
+        "sourceStudy": [
+          "Lee PAS.109 siguiendo cómo Jīva Gosvāmī relaciona Bhagavān, Paramātmā, jīva.",
+          "Localiza el pramāṇa del pasaje, especialmente las referencias 2.2.35, 1.2.11, y explica qué función cumplen en el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī, las citas de autoridad y cualquier objeción o comentario mientras sigues el tema de Bhagavān, Paramātmā, jīva."
+        ],
+        "afterReading": [
+          "Expresa con tus propias palabras qué siddhānta establece PAS.109 sobre Bhagavān, Paramātmā, jīva.",
+          "Señala qué evidencia de la fuente sostiene esa conclusión y cómo la usa Jīva Gosvāmī.",
+          "Compara tu respuesta final con tu comprensión inicial e identifica qué tuviste que precisar o corregir."
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    }
+  ]
+}

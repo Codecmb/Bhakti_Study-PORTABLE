@@ -1,0 +1,106 @@
+{
+  "schema": "bhakti-study-units-v2",
+  "programId": "bhakti-vaibhava",
+  "source": "ISKCON Ministry of Education / BOEX Question Banks",
+  "units": [
+    {
+      "id": "BV.U1",
+      "title": "Śrīmad-Bhāgavatam Canto 1, Chapters 1–9",
+      "book": "sb1",
+      "range": "SB.1.1–SB.1.9",
+      "canto": 1,
+      "chapterStart": 1,
+      "chapterEnd": 9,
+      "chapterCount": 9,
+      "alignment": "ISKCON BOEX question-bank division"
+    },
+    {
+      "id": "BV.U2",
+      "title": "Śrīmad-Bhāgavatam Canto 1, Chapters 10–19",
+      "book": "sb1",
+      "range": "SB.1.10–SB.1.19",
+      "canto": 1,
+      "chapterStart": 10,
+      "chapterEnd": 19,
+      "chapterCount": 10,
+      "alignment": "ISKCON BOEX question-bank division"
+    },
+    {
+      "id": "BV.U3",
+      "title": "Śrīmad-Bhāgavatam Canto 2",
+      "book": "sb2",
+      "range": "SB.2.1–SB.2.10",
+      "canto": 2,
+      "chapterStart": 1,
+      "chapterEnd": 10,
+      "chapterCount": 10,
+      "alignment": "ISKCON BOEX question-bank division"
+    },
+    {
+      "id": "BV.U4",
+      "title": "Śrīmad-Bhāgavatam Canto 3, Chapters 1–19",
+      "book": "sb3",
+      "range": "SB.3.1–SB.3.19",
+      "canto": 3,
+      "chapterStart": 1,
+      "chapterEnd": 19,
+      "chapterCount": 19,
+      "alignment": "ISKCON BOEX question-bank division"
+    },
+    {
+      "id": "BV.U5",
+      "title": "Śrīmad-Bhāgavatam Canto 3, Chapters 20–33",
+      "book": "sb3",
+      "range": "SB.3.20–SB.3.33",
+      "canto": 3,
+      "chapterStart": 20,
+      "chapterEnd": 33,
+      "chapterCount": 14,
+      "alignment": "ISKCON BOEX question-bank division"
+    },
+    {
+      "id": "BV.U6",
+      "title": "Śrīmad-Bhāgavatam Canto 4, Chapters 1–11",
+      "book": "sb4",
+      "range": "SB.4.1–SB.4.11",
+      "canto": 4,
+      "chapterStart": 1,
+      "chapterEnd": 11,
+      "chapterCount": 11,
+      "alignment": "ISKCON BOEX question-bank division"
+    },
+    {
+      "id": "BV.U7",
+      "title": "Śrīmad-Bhāgavatam Canto 4, Chapters 12–31",
+      "book": "sb4",
+      "range": "SB.4.12–SB.4.31",
+      "canto": 4,
+      "chapterStart": 12,
+      "chapterEnd": 31,
+      "chapterCount": 20,
+      "alignment": "ISKCON BOEX question-bank division"
+    },
+    {
+      "id": "BV.U8",
+      "title": "Śrīmad-Bhāgavatam Canto 5",
+      "book": "sb5",
+      "range": "SB.5.1–SB.5.26",
+      "canto": 5,
+      "chapterStart": 1,
+      "chapterEnd": 26,
+      "chapterCount": 26,
+      "alignment": "ISKCON BOEX question-bank division"
+    },
+    {
+      "id": "BV.U9",
+      "title": "Śrīmad-Bhāgavatam Canto 6",
+      "book": "sb6",
+      "range": "SB.6.1–SB.6.19",
+      "canto": 6,
+      "chapterStart": 1,
+      "chapterEnd": 19,
+      "chapterCount": 19,
+      "alignment": "ISKCON BOEX question-bank division"
+    }
+  ]
+}
