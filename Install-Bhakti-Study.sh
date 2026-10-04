@@ -11,14 +11,6 @@ echo
 echo "Preparing Bhakti Study for this computer..."
 echo
 
-# If Python 3 already exists, nothing needs to be installed.
-if command -v python3 >/dev/null 2>&1; then
-    echo "Python 3 is already available."
-    echo "Bhakti Study is ready to use."
-    echo
-    exec "$HERE/Start-Bhakti-Study.sh"
-fi
-
 # Linux can use the bundled native runtime without installing Python.
 if [ "$SYSTEM" = "Linux" ]; then
     case "$ARCH" in
@@ -33,6 +25,14 @@ if [ "$SYSTEM" = "Linux" ]; then
             fi
             ;;
     esac
+fi
+
+# If Python 3 already exists, nothing needs to be installed.
+if command -v python3 >/dev/null 2>&1; then
+    echo "Python 3 is already available."
+    echo "Bhakti Study is ready to use."
+    echo
+    exec "$HERE/Start-Bhakti-Study.sh"
 fi
 
 # macOS: install the official pinned Python runtime when needed.
