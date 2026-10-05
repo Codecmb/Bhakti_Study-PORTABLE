@@ -61,11 +61,14 @@ After setup, use `Start-Bhakti-Study.bat` to start the Academy again.
 
 1. Extract the downloaded ZIP file.
 2. Open the extracted Bhakti Study folder.
-3. Run `Install-Bhakti-Study.sh`.
-4. If Python 3.12 is not already installed for Bhakti Study, the installer downloads the official Python.org runtime and macOS may request administrator permission.
-5. Bhakti Study then starts locally and opens in your web browser.
+3. Open `Install Bhakti Study on Mac.command`.
+4. If macOS blocks the downloaded installer, use the normal macOS security prompt or Open command to allow it to run.
+5. If Python 3.12 is not already installed for Bhakti Study, the installer downloads the official Python.org runtime and macOS may request administrator permission.
+6. Bhakti Study then starts locally and opens in your web browser.
 
-After setup, use `Start-Bhakti-Study.sh` to start the Academy again.
+The Mac installer uses `Install-Bhakti-Study.sh` internally; normal users do not need to run that script manually.
+
+After setup, open `Start Bhakti Study on Mac.command` whenever you want to start the Academy again.
 
 ## Linux
 
