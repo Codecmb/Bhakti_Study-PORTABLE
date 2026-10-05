@@ -41,51 +41,71 @@ The four principal course programs contain **536 structured lessons**.
 
 ---
 
-# 2. Starting Bhakti Study on This Computer
+# 2. Installing and Starting Bhakti Study
 
-The current installation is located at:
+Bhakti Study Portable is designed to run locally on Windows, macOS and Linux after the package has been downloaded and extracted.
 
-    ~/Downloads/Bhakti_Study_TEST
+Keep the entire extracted Bhakti Study folder together. Do not move individual application files out of the folder.
 
-A desktop launcher has already been configured.
+## Windows
 
-Open **Academia Master** from the computer's application menu.
+1. Extract the downloaded ZIP file.
+2. Open the extracted Bhakti Study folder.
+3. Double-click `Install-Bhakti-Study.bat`.
+4. If Windows asks for permission to install the required Python 3.12 runtime, approve the installation.
+5. Bhakti Study will start locally and open in your web browser.
 
-The launcher:
+After setup, use `Start-Bhakti-Study.bat` to start the Academy again.
 
-1. Opens the Bhakti Study application directory.
-2. Checks whether the local Academy server is already running.
-3. Starts a Python HTTP server on port `8080` if necessary.
-4. Opens Firefox automatically.
+## macOS
 
-The local Academy address is:
+1. Extract the downloaded ZIP file.
+2. Open the extracted Bhakti Study folder.
+3. Run `Install-Bhakti-Study.sh`.
+4. If Python 3.12 is not already installed for Bhakti Study, the installer downloads the official Python.org runtime and macOS may request administrator permission.
+5. Bhakti Study then starts locally and opens in your web browser.
 
-    http://127.0.0.1:8080/index.html
+After setup, use `Start-Bhakti-Study.sh` to start the Academy again.
 
-The current launcher is:
+## Linux
 
-    ~/.local/bin/academia-master
+1. Extract the downloaded ZIP file.
+2. Open the extracted Bhakti Study folder.
+3. Run `Install-Bhakti-Study.sh`.
+4. On supported x86-64 Linux systems, Bhakti Study uses the bundled local runtime and does not require a separate Python installation.
+5. Bhakti Study starts locally and opens in your web browser.
 
-The desktop application entry is:
+After setup, use `Start-Bhakti-Study.sh` to start the Academy again.
 
-    ~/.local/share/applications/academia-master.desktop
+## Local Academy Address
+
+Bhakti Study runs only on the local computer at:
+
+    http://127.0.0.1:8080/
+
+GitHub is used to distribute the application. The installed Academy does not depend on GitHub while it is running.
+
+Keep the launcher/server window open while using Bhakti Study. Closing it stops the local Academy server.
 
 ---
 
-# 3. Manual Startup
+# 3. Starting Bhakti Study Again Later
 
-If the desktop launcher is unavailable, the Academy can be started manually.
+From the extracted Bhakti Study folder:
 
-Open a terminal and run:
+**Windows**
 
-    cd ~/Downloads/Bhakti_Study_TEST
-    python3 -m http.server 8080 --bind 127.0.0.1
+    Start-Bhakti-Study.bat
 
-Then open:
+**macOS or Linux**
 
-    http://127.0.0.1:8080/index.html
+    Start-Bhakti-Study.sh
 
-Keep the terminal running while using the Academy.
+If the required runtime has not yet been prepared, run the corresponding `Install-Bhakti-Study` file instead.
+
+The local Academy address is:
+
+    http://127.0.0.1:8080/
 
 ---
 
@@ -490,11 +510,15 @@ Do not assume that publishing the repository and installing the application are 
 
 # 26. Offline Use
 
-The Academy includes a service worker and shell caching for core navigation.
+Bhakti Study Portable contains the Academy application and its internal study content locally.
 
-Offline behavior depends on which resources have already been cached and which study resources require network access.
+After the required local runtime is available, the Academy's internal functionality is designed to run from the downloaded package without depending on GitHub.
 
-Do not assume every book, external reference or external media resource is available offline unless it has been explicitly tested.
+The service worker also provides offline application caching.
+
+External websites and resources, including links to services such as Vedabase or Vanipedia, naturally require an internet connection.
+
+Student work stored by the browser is separate from the application files. Use the Academy's backup/export tools before moving computers, changing browsers or clearing browser data.
 
 ---
 
@@ -569,18 +593,25 @@ This supports the governing architecture:
 
 ## Academy does not open
 
-Try:
+Make sure the ZIP was fully extracted and that all Bhakti Study files remain together in the extracted folder.
 
-    cd ~/Downloads/Bhakti_Study_TEST
-    python3 -m http.server 8080 --bind 127.0.0.1
+Run the installer again:
 
-Then open:
+**Windows**
 
-    http://127.0.0.1:8080/index.html
+    Install-Bhakti-Study.bat
+
+**macOS or Linux**
+
+    Install-Bhakti-Study.sh
+
+If the local server starts but the browser does not open automatically, open:
+
+    http://127.0.0.1:8080/
 
 ## Port 8080 is already in use
 
-Check whether the Academy is already open in Firefox before starting another server.
+Check whether Bhakti Study is already running before starting another copy of the local server.
 
 ## Changes do not appear
 

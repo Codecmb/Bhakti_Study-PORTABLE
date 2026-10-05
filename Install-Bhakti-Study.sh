@@ -27,8 +27,8 @@ if [ "$SYSTEM" = "Linux" ]; then
     esac
 fi
 
-# If Python 3 already exists, nothing needs to be installed.
-if command -v python3 >/dev/null 2>&1; then
+# Linux fallback: use an existing system Python when no bundled runtime is available.
+if [ "$SYSTEM" = "Linux" ] && command -v python3 >/dev/null 2>&1; then
     echo "Python 3 is already available."
     echo "Bhakti Study is ready to use."
     echo
