@@ -25,6 +25,9 @@
       section:entry.section||'',
       canonical:entry.canonical||'',
       notes:entry.notes||'',
+      tags:Array.isArray(entry.tags)
+        ? [...new Set(entry.tags.map(tag=>String(tag).trim()).filter(Boolean))]
+        : [],
       questions:Array.isArray(entry.questions)
         ? entry.questions.map(q=>({
             id:q.id||uid(),
