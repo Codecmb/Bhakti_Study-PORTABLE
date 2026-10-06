@@ -197,16 +197,32 @@ function renderList(){
     journalMatchesSearch(entry,$('journalSearch')?.value)
   );
 
+  const searching=Boolean($('journalSearch')?.value.trim());
+
   $('entryList').innerHTML=entries.length
     ? entries.map(e=>`
         <button class="journal-entry-button ${current&&e.id===current.id?'active':''}"
                 data-id="${StudyJournal.esc(e.id)}"
                 type="button">
-          ${StudyJournal.esc(e.title||e.canonical||e.section||e.bookTitle||'Journal Entry')}
-          <span class="journal-entry-ref">${StudyJournal.esc(e.canonical||e.bookTitle||e.book||'General')}</span>
+          <strong>${StudyJournal.esc(e.title||e.canonical||e.section||e.bookTitle||'Journal Entry')}</strong>
+          <span class="journal-entry-ref">
+            ${StudyJournal.esc(
+              [e.bookTitle||e.book,e.canonical]
+                .filter(Boolean)
+                .join(' · ') || 'General'
+            )}
+          </span>
+          ${(e.tags||[]).length
+            ? `<span class="journal-entry-ref">${StudyJournal.esc(e.tags.join(' · '))}</span>`
+            : ''
+          }
         </button>
       `).join('')
-    : '<p class="small muted">No saved journal entries yet.</p>';
+    : `<p class="small muted">${
+        searching
+          ? 'No matching journal entries.'
+          : 'No saved journal entries yet.'
+      }</p>`;
 
   document.querySelectorAll('.journal-entry-button').forEach(button=>{
     button.onclick=()=>{
