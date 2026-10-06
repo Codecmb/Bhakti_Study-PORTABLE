@@ -68,6 +68,8 @@ body{margin:0}
     <aside>
       <div class="card">
         <h2>Journal Entries</h2>
+        <input id="journalSearch" class="field" type="search"
+          placeholder="Search journal…" autocomplete="off">
         <div id="entryList" class="journal-list"></div>
       </div>
     </aside>
@@ -160,8 +162,31 @@ function renderQuestions(){
   });
 }
 
+function journalMatchesSearch(entry,query){
+  const q=String(query||'').trim().toLowerCase();
+  if(!q)return true;
+
+  const questionText=(entry.questions||[])
+    .map(item=>`${item.text||''} ${item.answer||''}`)
+    .join(' ');
+
+  const searchable=[
+    entry.title,
+    entry.canonical,
+    entry.book,
+    entry.bookTitle,
+    entry.section,
+    entry.notes,
+    questionText
+  ].join(' ').toLowerCase();
+
+  return searchable.includes(q);
+}
+
 function renderList(){
-  const entries=StudyJournal.list();
+  const entries=StudyJournal.list().filter(entry=>
+    journalMatchesSearch(entry,$('journalSearch')?.value)
+  );
 
   $('entryList').innerHTML=entries.length
     ? entries.map(e=>`
@@ -297,6 +322,8 @@ if(!current){
 
   current=matching||freshEntry();
 }
+
+$('journalSearch')?.addEventListener('input',renderList);
 
 renderEntry();
 
