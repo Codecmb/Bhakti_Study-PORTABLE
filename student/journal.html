@@ -41,6 +41,7 @@ body{margin:0}
 
       <div class="journal-toolbar">
         <button id="newEntry" class="button secondary" type="button">New Entry</button>
+          <button id="followReader" class="button secondary" type="button">Follow Reader: ON</button>
         <button id="saveEntry" class="button lotus" type="button">Save</button>
         <button id="addQuestion" class="button secondary" type="button">+ Add Question</button>
         <button id="exportEntry" class="button secondary" type="button">Export for AI Review</button>
@@ -258,12 +259,30 @@ if(!current){
 renderEntry();
 
 /* Follow the open reader while this Journal stays beside it. */
+let followReader=true;
+
+function renderFollowReader(){
+  const button=$('followReader');
+  if(!button)return;
+
+  button.textContent=`Follow Reader: ${followReader?'ON':'OFF'}`;
+  button.setAttribute('aria-pressed',followReader?'true':'false');
+}
+
+$('followReader').onclick=()=>{
+  followReader=!followReader;
+  renderFollowReader();
+};
+
+renderFollowReader();
+
 try{
   const journalChannel=new BroadcastChannel('academia-study-journal');
 
   journalChannel.onmessage=event=>{
     const msg=event.data||{};
     if(msg.type!=='reader-context'||!msg.canonical)return;
+    if(!followReader)return;
 
     const samePassage=
       current &&
