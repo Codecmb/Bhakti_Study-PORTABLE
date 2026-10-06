@@ -42,9 +42,37 @@ function renderStudyContext(canonical){
    ? `<button id="markPassageStudied" class="button secondary" type="button">Mark passage studied</button>`
    : '';
 
- host.innerHTML=(study||studied)
-   ? `<div class="reader-actions" style="margin:10px 0 18px">${study}${studied}<span id="studyProgressMessage" class="small"></span></div>`
-   : '';
+ const currentSection=book?.sections?.[sectionIndex]?.title||'';
+
+ const journalParams=new URLSearchParams({
+   book:bookId||'',
+   bookTitle:book?.title||meta?.title||'',
+   section:currentSection,
+   ref:canonical
+ });
+
+ if(programId)journalParams.set('program',programId);
+ if(unitId)journalParams.set('unit',unitId);
+
+ const journal=`<button id="openStudyJournal" class="button secondary" type="button">Open Journal ↗</button>`;
+
+ host.innerHTML=`<div class="reader-actions" style="margin:10px 0 18px">${study}${journal}${studied}<span id="studyProgressMessage" class="small"></span></div>`;
+
+ const openJournal=document.getElementById('openStudyJournal');
+
+ if(openJournal){
+   openJournal.onclick=()=>{
+     const journalWindow=window.open(
+       '../student/journal.html?'+journalParams.toString(),
+       'AcademiaStudyJournal',
+       'popup=yes,width=760,height=900,left=20,top=20,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,status=no'
+     );
+
+     if(journalWindow){
+       journalWindow.focus();
+     }
+   };
+ }
 
  const mark=document.getElementById('markPassageStudied');
 

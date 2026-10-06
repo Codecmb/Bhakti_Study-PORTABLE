@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Study Journal — Academia Master Siddhānta Gauḍīya</title>
+<link rel="stylesheet" href="../shared/styles.css">
+<style>
+body{margin:0}
+.journal-page{max-width:1100px;margin:0 auto;padding:24px}
+.journal-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:22px}
+.journal-context{margin:0 0 18px}
+.journal-toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px}
+.journal-field{margin:0 0 18px}
+.journal-field label{display:block;font-weight:700;margin-bottom:7px}
+.journal-field input,.journal-field textarea{width:100%;box-sizing:border-box;padding:12px;border:1px solid #cfc7b7;border-radius:8px;font:inherit;background:#fff}
+.journal-field textarea{min-height:260px;resize:vertical}
+.journal-question{border:1px solid #ddd8cc;border-radius:10px;padding:14px;margin:0 0 12px;background:#fff}
+.journal-question textarea{width:100%;box-sizing:border-box;padding:10px;border:1px solid #cfc7b7;border-radius:8px;font:inherit;resize:vertical}
+.journal-question .question-text{min-height:80px}
+.journal-question .question-answer{min-height:120px}
+.journal-question-actions{display:flex;justify-content:flex-end;margin-top:8px}
+.journal-list{display:grid;gap:8px}
+.journal-entry-button{display:block;width:100%;text-align:left;padding:10px 12px;border:1px solid #ddd8cc;background:#fff;border-radius:8px;cursor:pointer}
+.journal-entry-button.active{font-weight:700;border-color:#8a7650}
+.journal-entry-ref{display:block;font-size:.82rem;opacity:.7;margin-top:3px}
+#saveStatus{margin-left:auto;align-self:center}
+@media(max-width:850px){.journal-layout{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<main class="main journal-page">
+  <div class="eyebrow">My Study</div>
+  <h1>Study Journal</h1>
+  <p class="lead">Keep your notes, questions, and working answers connected to the texts you study.</p>
+
+  <div class="journal-layout">
+    <section>
+      <div id="journalContext" class="notice journal-context"></div>
+
+      <div class="journal-toolbar">
+        <button id="newEntry" class="button secondary" type="button">New Entry</button>
+        <button id="saveEntry" class="button lotus" type="button">Save</button>
+        <button id="addQuestion" class="button secondary" type="button">+ Add Question</button>
+        <button id="exportEntry" class="button secondary" type="button">Export for AI Review</button>
+        <button id="deleteEntry" class="button secondary" type="button">Delete</button>
+        <span id="saveStatus" class="small"></span>
+      </div>
+
+      <div class="journal-field">
+        <label for="entryTitle">Journal Entry Title</label>
+        <input id="entryTitle" type="text" placeholder="Optional title">
+      </div>
+
+      <div class="journal-field">
+        <label for="entryNotes">My Notes</label>
+        <textarea id="entryNotes" placeholder="Write your study notes here..."></textarea>
+      </div>
+
+      <h2>My Questions</h2>
+      <p class="small muted">Develop questions as you study without changing your original notes.</p>
+
+      <div id="questions"></div>
+    </section>
+
+    <aside>
+      <div class="card">
+        <h2>Journal Entries</h2>
+        <div id="entryList" class="journal-list"></div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<script src="../shared/app.js"></script>
+<script src="../shared/student-store.js"></script>
+<script src="../shared/study-journal.js"></script>
+
+<script>
+const $=id=>document.getElementById(id);
+const params=new URLSearchParams(location.search);
+
+function contextFromUrl(){
+  return {
+    program:params.get('program')||'',
+    unit:params.get('unit')||'',
+    book:params.get('book')||'',
+    bookTitle:params.get('bookTitle')||'',
+    section:params.get('section')||'',
+    canonical:params.get('ref')||''
+  };
+}
+
+function freshEntry(){
+  return StudyJournal.normalize(contextFromUrl());
+}
+
+let current=null;
+
+function contextLine(label,value){
+  return value
+    ? `<div><strong>${StudyJournal.esc(label)}:</strong> ${StudyJournal.esc(value)}</div>`
+    : '';
+}
+
+function renderContext(){
+  const e=current||freshEntry();
+
+  $('journalContext').innerHTML=
+    contextLine('Study Area',e.program)+
+    contextLine('Book',e.bookTitle||e.book)+
+    contextLine('Section',e.section)+
+    contextLine('Reference',e.canonical) ||
+    '<div>General journal entry</div>';
+}
+
+function pullForm(){
+  if(!current)return;
+
+  current.title=$('entryTitle').value.trim();
+  current.notes=$('entryNotes').value;
+
+  document.querySelectorAll('.journal-question').forEach(card=>{
+    const q=current.questions.find(x=>x.id===card.dataset.id);
+    if(!q)return;
+
+    q.text=card.querySelector('.question-text').value;
+    q.answer=card.querySelector('.question-answer').value;
+  });
+}
+
+function renderQuestions(){
+  $('questions').innerHTML=current.questions.map((q,i)=>`
+    <div class="journal-question" data-id="${StudyJournal.esc(q.id)}">
+      <div class="journal-field">
+        <label>Question ${i+1}</label>
+        <textarea class="question-text" placeholder="What question arose from your study?">${StudyJournal.esc(q.text)}</textarea>
+      </div>
+
+      <div class="journal-field">
+        <label>My Answer / Working Notes</label>
+        <textarea class="question-answer" placeholder="Develop your answer or working notes here...">${StudyJournal.esc(q.answer)}</textarea>
+      </div>
+
+      <div class="journal-question-actions">
+        <button class="button secondary remove-question" type="button">Remove Question</button>
+      </div>
+    </div>
+  `).join('');
+
+  document.querySelectorAll('.remove-question').forEach(button=>{
+    button.onclick=()=>{
+      pullForm();
+      const card=button.closest('.journal-question');
+      current.questions=current.questions.filter(q=>q.id!==card.dataset.id);
+      renderQuestions();
+    };
+  });
+}
+
+function renderList(){
+  const entries=StudyJournal.list();
+
+  $('entryList').innerHTML=entries.length
+    ? entries.map(e=>`
+        <button class="journal-entry-button ${current&&e.id===current.id?'active':''}"
+                data-id="${StudyJournal.esc(e.id)}"
+                type="button">
+          ${StudyJournal.esc(e.title||e.canonical||e.section||e.bookTitle||'Journal Entry')}
+          <span class="journal-entry-ref">${StudyJournal.esc(e.canonical||e.bookTitle||e.book||'General')}</span>
+        </button>
+      `).join('')
+    : '<p class="small muted">No saved journal entries yet.</p>';
+
+  document.querySelectorAll('.journal-entry-button').forEach(button=>{
+    button.onclick=()=>{
+      pullForm();
+      const next=StudyJournal.get(button.dataset.id);
+      if(next){
+        current=next;
+        renderEntry();
+      }
+    };
+  });
+}
+
+function renderEntry(){
+  if(!current)current=freshEntry();
+
+  $('entryTitle').value=current.title||'';
+  $('entryNotes').value=current.notes||'';
+
+  renderContext();
+  renderQuestions();
+  renderList();
+
+  $('saveStatus').textContent='';
+}
+
+function saveCurrent(){
+  pullForm();
+  current=StudyJournal.save(current);
+  $('saveStatus').textContent='Saved.';
+  renderList();
+}
+
+$('newEntry').onclick=()=>{
+  pullForm();
+  current=freshEntry();
+  renderEntry();
+};
+
+$('saveEntry').onclick=saveCurrent;
+
+$('addQuestion').onclick=()=>{
+  pullForm();
+  current=StudyJournal.addQuestion(current);
+  renderQuestions();
+
+  const cards=document.querySelectorAll('.journal-question');
+  const last=cards[cards.length-1];
+  last?.querySelector('.question-text')?.focus();
+};
+
+$('exportEntry').onclick=()=>{
+  saveCurrent();
+  StudyJournal.exportRTF(current);
+};
+
+$('deleteEntry').onclick=()=>{
+  if(!current)return;
+  if(!confirm('Delete this journal entry?'))return;
+
+  StudyJournal.remove(current.id);
+  current=freshEntry();
+
+  $('saveStatus').textContent='Journal entry deleted.';
+  renderEntry();
+};
+
+const requested=params.get('entry');
+current=requested?StudyJournal.get(requested):null;
+
+if(!current){
+  const ctx=contextFromUrl();
+
+  const matching=StudyJournal.list().find(e=>
+    ctx.canonical &&
+    e.canonical===ctx.canonical &&
+    e.book===ctx.book &&
+    e.program===ctx.program
+  );
+
+  current=matching||freshEntry();
+}
+
+renderEntry();
+</script>
+
+</body>
+</html>
