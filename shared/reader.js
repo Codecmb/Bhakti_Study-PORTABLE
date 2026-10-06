@@ -30,6 +30,14 @@ function returnToQuestion(){
  return `<a class="button lotus" href="${esc(ctx.returnHref)}">← Return to Question Bank</a>`;
 }
 
+function journalSectionTitle(title){
+ const value=String(title||'').trim();
+ return value.replace(
+   /^(Chapter\s+\d+):\s+\1:\s*/i,
+   '$1: '
+ );
+}
+
 function renderStudyContext(canonical){
  const host=document.querySelector('#studyContext');
  if(!host)return;
@@ -42,7 +50,9 @@ function renderStudyContext(canonical){
    ? `<button id="markPassageStudied" class="button secondary" type="button">Mark passage studied</button>`
    : '';
 
- const currentSection=book?.sections?.[sectionIndex]?.title||'';
+ const currentSection=journalSectionTitle(
+   book?.sections?.[sectionIndex]?.title||''
+ );
 
  const journalParams=new URLSearchParams({
    book:bookId||'',
@@ -106,7 +116,7 @@ async function openVerse(i){verseIndex=i;let s=book.sections[sectionIndex],v=s.v
      unit:unitId||'',
      book:bookId||'',
      bookTitle:book?.title||meta?.title||'',
-     section:s?.title||'',
+     section:journalSectionTitle(s?.title||''),
      canonical:canonical||''
    });
    journalChannel.close();

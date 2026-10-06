@@ -385,7 +385,24 @@ try{
       current.canonical===msg.canonical &&
       current.book===msg.book;
 
-    if(samePassage)return;
+    if(samePassage){
+      // Keep student-authored content, but refresh passage metadata.
+      pullForm();
+
+      current=StudyJournal.normalize({
+        ...current,
+        program:msg.program||current.program||'',
+        unit:msg.unit||current.unit||'',
+        book:msg.book||current.book||'',
+        bookTitle:msg.bookTitle||current.bookTitle||'',
+        section:msg.section||current.section||'',
+        canonical:msg.canonical||current.canonical||''
+      });
+
+      current=StudyJournal.save(current);
+      renderEntry();
+      return;
+    }
 
     // Preserve anything already written before following the reader.
     if(current && (
@@ -402,14 +419,29 @@ try{
       e.book===msg.book
     );
 
-    current=existing||StudyJournal.normalize({
-      program:msg.program||'',
-      unit:msg.unit||'',
-      book:msg.book||'',
-      bookTitle:msg.bookTitle||'',
-      section:msg.section||'',
-      canonical:msg.canonical||''
-    });
+    if(existing){
+      // Preserve the student's work while refreshing canonical reader context.
+      current=StudyJournal.normalize({
+        ...existing,
+        program:msg.program||existing.program||'',
+        unit:msg.unit||existing.unit||'',
+        book:msg.book||existing.book||'',
+        bookTitle:msg.bookTitle||existing.bookTitle||'',
+        section:msg.section||existing.section||'',
+        canonical:msg.canonical||existing.canonical||''
+      });
+
+      current=StudyJournal.save(current);
+    }else{
+      current=StudyJournal.normalize({
+        program:msg.program||'',
+        unit:msg.unit||'',
+        book:msg.book||'',
+        bookTitle:msg.bookTitle||'',
+        section:msg.section||'',
+        canonical:msg.canonical||''
+      });
+    }
 
     renderEntry();
   };

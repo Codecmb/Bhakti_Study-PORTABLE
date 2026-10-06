@@ -144,7 +144,7 @@
 
     const field=(label,value)=>{
       if(value)
-        body+=`\\b ${rtfEsc(label)}:\\b0 ${rtfEsc(value)}\\par\n`;
+        body+=`\\b ${rtfEsc(label)}:\\b0\\~${rtfEsc(value)}\\par\n`;
     };
 
     body+='\\b\\fs36 Academia Master Siddhānta Gauḍīya\\b0\\fs24\\par\n';
@@ -152,9 +152,14 @@
 
     field('Title',displayTitle(e));
     field('Book',e.bookTitle||e.book);
-    field('Section',e.section);
+
+    const exportSection=String(e.section||'')
+      .replace(/^(Chapter\\s+\\d+):\\s+\\1:\\s*/i,'$1: ');
+
+    field('Section',exportSection);
     field('Reference',e.canonical);
     field('Study Area',e.program);
+    field('Tags',(e.tags||[]).join(', '));
 
     heading('My Notes');
     body+=(e.notes?rtfEsc(e.notes):'')+'\\par\n';
