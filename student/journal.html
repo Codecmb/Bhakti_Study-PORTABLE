@@ -206,6 +206,48 @@ function saveCurrent(){
   renderList();
 }
 
+/* Quiet autosave while writing. */
+let autosaveTimer=null;
+
+function scheduleAutosave(){
+  $('saveStatus').textContent='Saving…';
+
+  clearTimeout(autosaveTimer);
+
+  autosaveTimer=setTimeout(()=>{
+    pullForm();
+
+    const hasContent=
+      current &&
+      (
+        current.title ||
+        current.notes ||
+        current.questions.some(q=>q.text||q.answer)
+      );
+
+    if(!hasContent){
+      $('saveStatus').textContent='';
+      return;
+    }
+
+    current=StudyJournal.save(current);
+    $('saveStatus').textContent='Saved.';
+    renderList();
+  },800);
+}
+
+$('entryTitle').addEventListener('input',scheduleAutosave);
+$('entryNotes').addEventListener('input',scheduleAutosave);
+
+$('questions').addEventListener('input',event=>{
+  if(
+    event.target.classList.contains('question-text') ||
+    event.target.classList.contains('question-answer')
+  ){
+    scheduleAutosave();
+  }
+});
+
 $('newEntry').onclick=()=>{
   pullForm();
   current=freshEntry();
