@@ -256,6 +256,52 @@ if(!current){
 }
 
 renderEntry();
+
+/* Follow the open reader while this Journal stays beside it. */
+try{
+  const journalChannel=new BroadcastChannel('academia-study-journal');
+
+  journalChannel.onmessage=event=>{
+    const msg=event.data||{};
+    if(msg.type!=='reader-context'||!msg.canonical)return;
+
+    const samePassage=
+      current &&
+      current.canonical===msg.canonical &&
+      current.book===msg.book;
+
+    if(samePassage)return;
+
+    // Preserve anything already written before following the reader.
+    if(current && (
+      current.title ||
+      current.notes ||
+      current.questions.some(q=>q.text||q.answer)
+    )){
+      pullForm();
+      current=StudyJournal.save(current);
+    }
+
+    const existing=StudyJournal.list().find(e=>
+      e.canonical===msg.canonical &&
+      e.book===msg.book
+    );
+
+    current=existing||StudyJournal.normalize({
+      program:msg.program||'',
+      unit:msg.unit||'',
+      book:msg.book||'',
+      bookTitle:msg.bookTitle||'',
+      section:msg.section||'',
+      canonical:msg.canonical||''
+    });
+
+    renderEntry();
+  };
+}catch(e){
+  console.warn('Study Journal follow-reader unavailable:',e);
+}
+
 </script>
 
 </body>
