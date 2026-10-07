@@ -74,6 +74,9 @@ body{margin:0}
         <h2 id="journalEntriesHeading">Journal Entries</h2>
         <input id="journalSearch" class="field" type="search"
           placeholder="Search journal…" autocomplete="off">
+        <select id="journalBookFilter" class="field" aria-label="Filter journal by book">
+          <option value="">All Books</option>
+        </select>
         <select id="journalSort" class="field" aria-label="Sort journal entries">
           <option value="newest">Newest</option>
           <option value="oldest">Oldest</option>
@@ -197,11 +200,41 @@ function journalMatchesSearch(entry,query){
   return searchable.includes(q);
 }
 
+function renderBookFilter(entries){
+  const select=$('journalBookFilter');
+  if(!select)return;
+
+  const selected=select.value;
+
+  const books=[...new Map(
+    entries
+      .filter(e=>e.book||e.bookTitle)
+      .map(e=>[
+        e.book||e.bookTitle,
+        e.bookTitle||e.book
+      ])
+  ).entries()]
+    .sort((a,b)=>String(a[1]).localeCompare(String(b[1])));
+
+  select.innerHTML=
+    '<option value="">All Books</option>'+
+    books.map(([value,label])=>
+      `<option value="${StudyJournal.esc(value)}">${StudyJournal.esc(label)}</option>`
+    ).join('');
+
+  if(books.some(([value])=>value===selected))
+    select.value=selected;
+}
+
 function renderList(){
   const allEntries=StudyJournal.list();
+
+  renderBookFilter(allEntries);
   const searchQuery=$('journalSearch')?.value||'';
+  const bookFilter=$('journalBookFilter')?.value||'';
 
   const entries=allEntries.filter(entry=>
+    (!bookFilter || (entry.book||entry.bookTitle)===bookFilter) &&
     journalMatchesSearch(entry,searchQuery)
   );
 
@@ -379,6 +412,7 @@ if(!current){
 }
 
 $('journalSearch')?.addEventListener('input',renderList);
+$('journalBookFilter')?.addEventListener('change',renderList);
 $('journalSort')?.addEventListener('change',renderList);
 
 renderEntry();
