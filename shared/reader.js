@@ -72,9 +72,11 @@ function renderStudyContext(canonical){
 
  if(openJournal){
    openJournal.onclick=()=>{
+     const journalUrl='../student/journal.html?'+journalParams.toString();
+
      const journalWindow=window.open(
-       '../student/journal.html?'+journalParams.toString(),
-       'AcademiaStudyJournal',
+       journalUrl,
+       '_blank',
        'popup=yes,width=760,height=900,left=20,top=20,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,status=no'
      );
 
