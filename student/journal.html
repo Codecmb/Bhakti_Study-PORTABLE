@@ -74,6 +74,11 @@ body{margin:0}
         <h2 id="journalEntriesHeading">Journal Entries</h2>
         <input id="journalSearch" class="field" type="search"
           placeholder="Search journal…" autocomplete="off">
+        <select id="journalSort" class="field" aria-label="Sort journal entries">
+          <option value="newest">Newest</option>
+          <option value="oldest">Oldest</option>
+          <option value="reference">Reference</option>
+        </select>
         <div id="entryList" class="journal-list"></div>
       </div>
     </aside>
@@ -199,6 +204,22 @@ function renderList(){
   const entries=allEntries.filter(entry=>
     journalMatchesSearch(entry,searchQuery)
   );
+
+  const sortMode=$('journalSort')?.value||'newest';
+
+  if(sortMode==='oldest'){
+    entries.sort((a,b)=>
+      String(a.createdAt||'').localeCompare(String(b.createdAt||''))
+    );
+  }else if(sortMode==='reference'){
+    entries.sort((a,b)=>
+      String(a.canonical||'').localeCompare(
+        String(b.canonical||''),
+        undefined,
+        {numeric:true,sensitivity:'base'}
+      )
+    );
+  }
 
   const searching=Boolean(searchQuery.trim());
 
@@ -358,6 +379,7 @@ if(!current){
 }
 
 $('journalSearch')?.addEventListener('input',renderList);
+$('journalSort')?.addEventListener('change',renderList);
 
 renderEntry();
 
