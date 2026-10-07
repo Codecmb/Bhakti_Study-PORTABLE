@@ -77,6 +77,9 @@ body{margin:0}
         <select id="journalBookFilter" class="field" aria-label="Filter journal by book">
           <option value="">All Books</option>
         </select>
+        <select id="journalTagFilter" class="field" aria-label="Filter journal by tag">
+          <option value="">All Tags</option>
+        </select>
         <select id="journalSort" class="field" aria-label="Sort journal entries">
           <option value="newest">Newest</option>
           <option value="oldest">Oldest</option>
@@ -226,15 +229,40 @@ function renderBookFilter(entries){
     select.value=selected;
 }
 
+function renderTagFilter(entries){
+  const select=$('journalTagFilter');
+  if(!select)return;
+
+  const selected=select.value;
+
+  const tags=[...new Set(
+    entries.flatMap(e=>Array.isArray(e.tags)?e.tags:[])
+      .map(tag=>String(tag).trim())
+      .filter(Boolean)
+  )].sort((a,b)=>a.localeCompare(b,undefined,{sensitivity:'base'}));
+
+  select.innerHTML=
+    '<option value="">All Tags</option>'+
+    tags.map(tag=>
+      `<option value="${StudyJournal.esc(tag)}">${StudyJournal.esc(tag)}</option>`
+    ).join('');
+
+  if(tags.includes(selected))
+    select.value=selected;
+}
+
 function renderList(){
   const allEntries=StudyJournal.list();
 
   renderBookFilter(allEntries);
+  renderTagFilter(allEntries);
   const searchQuery=$('journalSearch')?.value||'';
   const bookFilter=$('journalBookFilter')?.value||'';
+  const tagFilter=$('journalTagFilter')?.value||'';
 
   const entries=allEntries.filter(entry=>
     (!bookFilter || (entry.book||entry.bookTitle)===bookFilter) &&
+    (!tagFilter || (entry.tags||[]).includes(tagFilter)) &&
     journalMatchesSearch(entry,searchQuery)
   );
 
@@ -254,9 +282,13 @@ function renderList(){
     );
   }
 
-  const searching=Boolean(searchQuery.trim());
+  const filtering=Boolean(
+    searchQuery.trim() ||
+    bookFilter ||
+    tagFilter
+  );
 
-  $('journalEntriesHeading').textContent=searching
+  $('journalEntriesHeading').textContent=filtering
     ? `Journal Entries (${entries.length} of ${allEntries.length})`
     : `Journal Entries (${allEntries.length})`;
 
@@ -413,6 +445,7 @@ if(!current){
 
 $('journalSearch')?.addEventListener('input',renderList);
 $('journalBookFilter')?.addEventListener('change',renderList);
+$('journalTagFilter')?.addEventListener('change',renderList);
 $('journalSort')?.addEventListener('change',renderList);
 
 renderEntry();
