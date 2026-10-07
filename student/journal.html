@@ -71,7 +71,7 @@ body{margin:0}
 
     <aside>
       <div class="card">
-        <h2>Journal Entries</h2>
+        <h2 id="journalEntriesHeading">Journal Entries</h2>
         <input id="journalSearch" class="field" type="search"
           placeholder="Search journal…" autocomplete="off">
         <div id="entryList" class="journal-list"></div>
@@ -193,11 +193,18 @@ function journalMatchesSearch(entry,query){
 }
 
 function renderList(){
-  const entries=StudyJournal.list().filter(entry=>
-    journalMatchesSearch(entry,$('journalSearch')?.value)
+  const allEntries=StudyJournal.list();
+  const searchQuery=$('journalSearch')?.value||'';
+
+  const entries=allEntries.filter(entry=>
+    journalMatchesSearch(entry,searchQuery)
   );
 
-  const searching=Boolean($('journalSearch')?.value.trim());
+  const searching=Boolean(searchQuery.trim());
+
+  $('journalEntriesHeading').textContent=searching
+    ? `Journal Entries (${entries.length} of ${allEntries.length})`
+    : `Journal Entries (${allEntries.length})`;
 
   $('entryList').innerHTML=entries.length
     ? entries.map(e=>`
